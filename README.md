@@ -39,6 +39,9 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
+		intSalaryArray[50][50] = '0';
+		charFNameArray[50][50] = '0';
+		charLNameArray[50][50] = '0';
 		printf("Please enter a first name for Teacher %d: \n", i + 1);
 		scanf("%s", charFNameArray[i]);
 
