@@ -40,7 +40,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		printf("Please enter a first name for Teacher %d: \n", i + 1);
-		scanf("%s", charFNameArray[i][0]);
+		scanf("%s", charFNameArray[i]);
 
 		// this is where I've tried the different methods
 		
